@@ -10,7 +10,7 @@ class Game:
 
         self._run()
 
-    def _run(self):
+    def _run(self):#
         
         self.turn = max(self.player, self.ai_player, key=lambda x: x._roll_dice())
 
